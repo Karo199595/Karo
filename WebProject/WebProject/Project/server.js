@@ -1,0 +1,8 @@
+function some() {
+alert('a');}
+
+
+
+
+
+

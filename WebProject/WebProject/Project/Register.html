@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="myCss.css" type="text/css" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+
+<body>
+
+<a href="main.html"><img height="50px" width="50px" src="Pictures/back-clipart-back-md.png"></a>
+<div id="register"  class="register" style="height: 500px">
+    <script type="text/javascript" src="Js.js"></script>
+    <a class="textInfo" id="name">Name</a><br>
+    <input class="inputs"  type="text"/><br>
+   <a class="textInfo">SurName</a>
+    <input class="inputs"  type="text"/><br>
+    <hr>
+    <a class="textInfo">Password</a>   <br>
+    <input class="inputs" id="registerPassword" type="password"/><br>
+   <a class="textInfo">Password Again</a>
+    <input class="inputs" id="again" onchange="rightPassword()" type="password"/><br>
+
+   <input type="checkbox" onchange="document.getElementById('registerPassword').type=this.checked ?'text':'password',document.getElementById('again').type=this.checked ?'text':'password' " >
+    <a class="textInfo " style="font-size: 15px" >Show Passwords</a><br>
+
+    <a id="correctPassword" style="color: red"></a>
+    <hr>
+    <wbr>
+   
+  <div>
+    <input style=" margin: 100px 0 50px 90px;" class="buttons" type="submit" onclick="selectColor()" value="Register"></div>
+  
+  
+    </div>
+	
+
+<a style=" margin: 200px 400px 200px 500px;" href="https://web.facebook.com/karo.hovhannisyan95""><img height="100px" width="500px" src="Pictures/aboutMe.png"></a>
+</body>
+</html>
